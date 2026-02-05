@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Basic chat app"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "confluent-kafka>=2.13.0",
+    "fastapi[standard]>=0.128.1",
+    "pydantic>=2.12.5",
+    "uvicorn>=0.40.0",
+]

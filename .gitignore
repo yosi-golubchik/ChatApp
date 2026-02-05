@@ -1,2 +1,16 @@
-.venv
-.idea
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- PyCharm (IDE Settings) ---
+.idea/
+
+# --- Environment Variables (Security) ---
+.env
